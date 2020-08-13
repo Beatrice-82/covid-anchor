@@ -1,20 +1,8 @@
-// const server= require("./infra/server");
+const server= require("./infra/server");
 
-// const main= async()=>{
-// //Run Server
-// await server()
-// };
+const main= async()=>{
+//Run Server
+await server()
+};
 
-// main();
-
-/************************ */
-//Weapon
-class Weapon{
-    name: null;
-}
-
-// Character class for a game
-class Character{
-    name = null;
-    life = 0
-}
+main();
